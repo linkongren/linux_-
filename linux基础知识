@@ -1,0 +1,72 @@
+1. 软件安装
+   1源 
+   2相应操作
+       apt-get update 更新软件信息
+       apt-get upgrade 将检测到的新安装包安装。一个新的系统有必要进行这样的一个操作
+       
+       换源后需要更新操作
+       /etc/apt/source.list
+       apt-get install 安装
+       apt-cache search 可用于查找带关键字的包
+       
+ 2 简单命令
+       ls 列出所有文件 -a显示所有隐藏文件
+       ll=‘ls-alF’ 
+       alia 别名绑定
+       ls -al 也可以写成 ls -a -l 只有当命令执行顺序无关时才能这样写
+       ls -a /etc 列出etc下的所有文件
+       ls -a 缺省值是当前目录 不同命令有不同缺省值
+       mkdir (make dirctary)
+       mkdir 184         创建一个目录
+       cd 184
+       touch a b c d e   修改文件的创建时间等，当文件不存在时，将创建该文件
+       mkdir test
+       cp a b c d e test
+       echo 输出
+       echo a > a       输出一个a，重定向到a文件中
+       cat b            强制输出b文件中的内容
+       cp a b           拷贝
+       cp e b           b中的文件会被覆盖
+       pwd              打印当前目录
+       回到hone目录 ？
+       1. cd /home
+          cd -        回到上一个到达的目录
+       2. cd ..       回单父目录
+       3. 家目录       $HOME
+          cd $HOME       普通用户的家目录就是home目录
+          cd 缺省  或cd ～ 回到家目录
+       rm (remove)  -f -r 强制 递归  （fource）敏感操作，对目录一定要慎重
+       mv （move）
+       linux 手册
+           man
+           tldr
+           
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
