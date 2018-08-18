@@ -1,0 +1,41 @@
+1 目录
+cd
+pwd
+mkdir
+rmdir
+2 文件与目录管理
+ls
+cp
+rm
+mv
+basename
+dirname
+3 文件内容的查阅
+cat
+tac
+nl
+more
+less
+head
+tail
+od
+修改文件时间与新建文件
+mtime
+ctime
+atime
+
+touch
+
+文件隐藏属性
+chattr
+lsattr
+文件的特殊权限
+set_uid
+set_gid
+sticky Bit
+命令与文件的查询
+which
+whereis
+locate
+find
+
