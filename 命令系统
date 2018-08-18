@@ -1,0 +1,67 @@
+shell terminal console
+
+
+Linux帮组系统
+
+
+man中  
+    1 用户在shell环境下可以操作的命令可执行文件   ls
+    2系统内核可调用的函数和工具                 reboot
+    3.一些常用的函数与函数库，大部分c的函数库     readdir
+    4.设备文件的说明，通常是在/dev下的设备       null
+    5 配置文件或某些文件的格式                  interfaces
+    6 游戏                                   lol
+    7 惯例与协议等，例如Linux文件系统，网络协议等  tcp
+    8 系统管理员可用的命令                      reboot
+    9 跟kernel有关的文件
+    o 旧文档
+    n 新文档
+    l 本地文档
+man手册中的快捷键
+ctrl +f（orward）向下翻一页            Ctrl+ d（own） 向下翻半页
+ctrl +b（ackward）向上翻一页           ctrl + u（p）  向上翻半页
+/     查找                            q（uit）      退出
+
+
+bash 通配符
+？代表单个任意字符  * 代表任意几个任意字符
+[]  [!] [c1-c2] {string1,string2,..}
+
+
+任务管理
+
+&
+
+；
+
+&&
+
+||
+
+``
+ctrl + z 
+
+bg fg jobs 
+
+管道，重定向
+ 
+ > >> < <<
+
+转义符
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
