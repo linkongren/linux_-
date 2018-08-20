@@ -1,1 +1,62 @@
 
+目录结构
+    usr : 用户级别的软件
+           
+    boot ：系统的引导程序
+    dev ： 所有的设备文件
+    etc ： 所有软件的配置文件
+    home： 所有用户的家目录
+    lib：库文件
+    media：媒体
+    mnt：专门挂载设备
+    opt：
+    bin：系统级别可执行
+    var：日志
+启动流程
+    1 按开机键
+    2 加载BIOS 获取第一个可启动的设备
+    3 读取并执行第一个启动设备内 MBR 的 boot loader
+    4 根据boot loader 的设置加载 kernel
+    5 boot loader加载虚拟文件系统
+    6 启动第一个进程init
+    7 init启动终端getty
+    8 运行 x windows （图形化界面）系统
+运行级别
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+配置文件
+    全局配置文件
+        文件系统
+            /etc/fstab  文件系统的静态信息
+        用户系统
+            /etc/passwd  所有用户信息
+            /etc/shadow
+            /etc/group   群组信息
+            /etc/gshadow 群组密码
+        shell
+            /etc/inputrc
+            /etc/bash.bashrc bash配置文件
+            /etc/profile     用户首选项
+        系统环境
+            /etc/issue       发行信息
+        网络
+            /etc/hostname    可以改主机名
+    用户配置文件
+        .bash_rc  bash_profile .bash_logout
+    环境变量
+        
+        
+        
+        
+        
+        
+            
+    
+    
+    
+    
